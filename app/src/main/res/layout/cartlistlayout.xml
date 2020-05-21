@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayoutCartList"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textViewCartListDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="13dp"
+        android:alpha="0.8"
+        android:fontFamily="@font/open_sans"
+        android:text="Delete"
+        android:textColor="@android:color/background_dark"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewCartListEdit"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCartListItems" />
+
+    <TextView
+        android:id="@+id/textViewCartListPrices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="35dp"
+        android:layout_marginTop="10dp"
+        android:alpha="0.8"
+        android:text="P250\nP3000"
+        android:textAlignment="viewEnd"
+        android:textColor="@android:color/background_dark"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCartListName" />
+
+    <TextView
+        android:id="@+id/textViewCartListName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/open_sans"
+        android:text="Saint James Enterprises"
+        android:textColor="@android:color/background_dark"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toStartOf="@+id/textViewCartListViewStore"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewCartListViewStore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="22dp"
+        android:alpha="0.8"
+        android:text="View Store"
+        android:textColor="@android:color/background_dark"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewCartListItems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="10dp"
+        android:alpha="0.8"
+        android:text="-Hollow blocks (P13 X 5)\n-Contact Cement (P10 x 5)"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/background_dark"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toStartOf="@+id/textViewCartListPrices"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCartListName"/>
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="35dp"
+        android:layout_height="3dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginTop="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCartListPrices"
+        app:srcCompat="@drawable/cart_underline" />
+
+    <TextView
+        android:id="@+id/textViewCartListTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="35dp"
+        android:layout_marginTop="1dp"
+        android:alpha="0.8"
+        android:fontFamily="@font/open_sans"
+        android:text="P1000"
+        android:textColor="@android:color/background_dark"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCartListDelete"
+        app:srcCompat="@drawable/cart_recycler_line" />
+
+    <TextView
+        android:id="@+id/textViewCartListEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="13dp"
+        android:alpha="0.8"
+        android:fontFamily="@font/open_sans"
+        android:text="Edit"
+        android:textColor="@android:color/background_dark"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCartListItems" />
+
+</android.support.constraint.ConstraintLayout>

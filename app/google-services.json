@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "298468284597",
+    "firebase_url": "https://tinda-app.firebaseio.com",
+    "project_id": "tinda-app",
+    "storage_bucket": "tinda-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298468284597:android:55bf9cada96b4472",
+        "android_client_info": {
+          "package_name": "com.release.android.tinda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298468284597-0315m7ebr3ihaav64pvqbemjvd1dqv1m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.release.android.tinda",
+            "certificate_hash": "1f5935221c4e8b786042e3abff421e48eeadeddf"
+          }
+        },
+        {
+          "client_id": "298468284597-mi5v7mis9mrfq5is28533uej1en8d7er.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.release.android.tinda",
+            "certificate_hash": "e994572d80aa33ef52be1c3b7369e23cd1893a34"
+          }
+        },
+        {
+          "client_id": "298468284597-m8ftoghbihecis6pn8eitutvv8u6qn0i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqVAUHWaZ-H3yPODELtGKEJ4iKRvePdUA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298468284597-m8ftoghbihecis6pn8eitutvv8u6qn0i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
